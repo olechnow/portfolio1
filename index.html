@@ -77,7 +77,7 @@
                 <a href="https://www.qut.edu.au/research/e-grad-school" target="_blank">e-Grad School homepage</a>
                 <br>
                 <br>
-                <form>
+                <form id="contactform" action="https://formspree.io/f/xaylrlkj" method="POST">
                     <label for="name">*Name:</label>
                     <br>
                 <input type="text" name="name"  id="name" required>
@@ -90,10 +90,10 @@
                 <br>
                 <label for="mobile">Mobile (optional):</label>
                 <br>
-                <input for="mobile" name="mobile" id="mobile" pattern="[0-9]">
+                <input type="text" name="mobile" id="mobile" pattern="[0-9]">
                 <br>
                 <br>
-                <label for ="message" >*Leave your message below:</label>
+                <label for ="message">*Leave your message below:</label>
                 <br>
                 <textarea id="message" name="message" rows="5" cols="30" required>
                 </textarea>
